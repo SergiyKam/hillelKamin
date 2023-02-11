@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <caption style="background-color: blue;">MY FIRST TABLE</caption>
+        </thead>
+        <tbody>
+            <tr>
+                <th style="background-color: blue;">First cell</th>
+                <th style="background-color: blue;">Second cell</th>                        
+                <th colspan="6" rowspan="5">6 cell merged together</th>
+            </tr>
+        <colgroup>
+            <col span="8" style="background-color: yellow;">
+        </colgroup>
+            <tr>
+                <th colspan="2">2 cell merged into one</th>
+            </tr>
+            <tr>
+                <th rowspan="3">1 st cell 3 rd row</th>
+                <th rowspan="3">2 nd cell 3 rd row</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="8">Do you like tables?</th>
+        </tfoot>
+    </table>
+</body>
+</html>
